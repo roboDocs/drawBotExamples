@@ -1,0 +1,11 @@
+size(100, 100)
+stroke(1, 0, 0)
+fill(None)
+
+newPath()
+moveTo((8, 26))
+lineTo((44, 48))
+lineTo((20, 72))
+curveTo((68, 92), (88, 86), (70, 24))
+closePath()
+drawPath()
